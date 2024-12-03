@@ -1,6 +1,7 @@
 # Image-OCR-and-Translation
 
 ## 1. 프로젝트 구조
+----
 project/
 ├── image_processing/           # 이미지 전처리 및 OCR 관련 모듈
 │   ├── preprocess.py           # OpenCV를 사용하여 이미지 전처리 (흑백 변환, 이진화 등)
@@ -16,7 +17,7 @@ project/
 ├── README.md                   # 프로젝트 설명 및 가이드
 ├── requirements.txt            # 프로젝트에 필요한 Python 라이브러리 목록
 └── translated_text.txt         # 번역된 텍스트 결과 파일
-
+----
 
 ## 2. 작업 내용 요약
 
