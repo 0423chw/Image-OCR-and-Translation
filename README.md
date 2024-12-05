@@ -9,7 +9,9 @@
 
 ## 데모 및 예시
 ### 1. 입력 이미지 예시
-![Input Image](images/input_sample.jpg)
+
+![sample_image](https://github.com/user-attachments/assets/2b7347e4-c012-46ec-a1de-e41d220f5891)
+
 
 ### 2. OCR 및 번역 결과
 - **추출된 텍스트**:But the human tongue can lead to far more devastating outcomes, 
