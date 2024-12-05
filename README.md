@@ -105,39 +105,39 @@ Hugging Face 번역 모델 (Helsinki-NLP/opus-mt-en-ko)을 사용하여 영어 �
 텍스트 파일 출력:
 번역된 텍스트를 .txt 파일로 저장.
 
-### 4. 실행 결과
-## 4.1. 입력
+## 4. 실행 결과
+### 4.1. 입력
 예제 입력 이미지: sample_image.jpg.
-## 4.2. 출력
+### 4.2. 출력
 전처리된 이미지: processed_image.jpg 파일에 저장.
 추출된 텍스트: extracted_text.txt 파일에 저장.
 번역된 텍스트: translated_text.txt 파일에 저장.
 번역된 텍스트가 포함된 이미지: output_image.jpg 파일에 저장.
 
-### 5. 역할 및 브랜치 관리
-## 5.1. 역할 1: 이미지 전처리 및 텍스트 추출 담당
+## 5. 역할 및 브랜치 관리
+### 5.1. 역할 1: 이미지 전처리 및 텍스트 추출 담당
 이미지 전처리:
 OpenCV를 사용하여 노이즈 제거, 흑백 변환, 이진화 등 전처리 작업 수행.
 텍스트 추출:Tesseract OCR을 사용하여 텍스트 인식 및 추출.
 GitHub 관리:image_processing 브랜치에서 작업 후, Pull Request로 main 브랜치에 병합.
-## 5.2. 역할 2: 텍스트 번역 및 결과 출력 담당
+### 5.2. 역할 2: 텍스트 번역 및 결과 출력 담당
 텍스트 번역:Hugging Face 번역 모델을 사용하여 텍스트 번역 (예: 영어 → 한국어).
 결과 출력:번역된 텍스트를 이미지에 오버레이하거나, 텍스트 파일로 저장.
 GitHub 관리:text_translation 브랜치에서 작업 후, Pull Request로 main 브랜치에 병합.
 
-### 6. 공통 GitHub 역할
+## 6. 공통 GitHub 역할
 리더:브랜치 관리 및 Pull Request 병합 담당.
 최종적으로 README.md 작성 및 GitHub 리포지토리 설정.
 팀원:각자 작업한 코드 커밋 및 푸시.
 커밋 메시지를 구체적으로 작성:
 예: "Add OCR extraction functionality"
 
-### 7. 예제 커밋 메시지
+## 7. 예제 커밋 메시지
 "Add preprocess.py for image preprocessing"
 "Update translate.py to handle multi-language translation"
 "Fix bug in output_display.py related to image overlay"
 
-### 8. 추가 참고
+## 8. 추가 참고
 Tesseract 설치: Tesseract GitHub
 Hugging Face 번역 모델: Helsinki-NLP on Hugging Face
 yaml
